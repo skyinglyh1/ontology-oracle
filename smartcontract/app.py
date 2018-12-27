@@ -4,7 +4,7 @@ from boa.interop.System.Runtime import Notify, Serialize, Deserialize
 from boa.builtins import *
 from ontology.interop.Ontology.Runtime import Base58ToAddress
 
-oracleContract = RegisterAppCall('7e91afafa13d075d113f92ce3f21d5ff063418f9', 'operation', 'args')
+oracleContract = RegisterAppCall('d1ea6327aa344f37e5e3c7ede3125c09a6cb4b45', 'operation', 'args')
 
 def main(operation, args):
     if operation == 'genRandom':
